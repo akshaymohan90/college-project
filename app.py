@@ -411,11 +411,13 @@ def main():
 
         st.subheader("Dataset")
         txt = """
-            This web-application is a part of the final **Data Mining** project for **ITC Fellow Program 2020**. 
+            This web-application is a part of the final year college project. 
 
             Datasets used in this project
           
             * Ryerson Audio-Visual Database of Emotional Speech and Song (**Ravdess**)
+            * Tess
+            * CREMA D
            
             """
         st.markdown(txt, unsafe_allow_html=True)
@@ -437,8 +439,8 @@ def main():
         with col1:
             st.info("Akshay")
             st.info("Hridya")
-            st.info("")
-            st.info("")
+            st.info("Pranav ")
+            st.info("Subahana ")
         with col2:
             liimg = Image.open("images/LI-Logo.png")
             st.image(liimg)
